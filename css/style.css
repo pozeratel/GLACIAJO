@@ -1,0 +1,288 @@
+:root {
+    --header-color: #FF993A;
+    --title-color: #FF463A;
+    --card-bg-color: #EFEFEF;
+    --main-bg: #FFE4CC;
+    --footer-bg: #181818;
+    --text-color: #000;
+    --btn-cl: #ffffff;
+}
+
+header {
+    padding: 20px 0;
+}
+
+body {
+    font-family: Nunito;
+}
+
+.container {
+    width: 1640px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 65px;
+    margin-left: 180px;
+}
+
+.logo-link {
+    color: var(--header-color);
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.nav-link {
+    color: var(--links-color);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.nav-link:hover {
+    color: var(--header-color);
+}
+
+.logo-img {
+    width: 80px;
+    height: 80px;
+}
+
+/* секція герой */
+
+.hero {
+    background-color: var(--main-bg);
+}
+
+.hero-anonse {
+    color: var(--header-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    color: var(--title-color);
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.35;
+    width: 290px;
+    margin-bottom: 45px;
+}
+
+.hero-text {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.35;
+    width: 527px;
+    margin-bottom: 45px;
+}
+
+.hero-btn {
+    color: var(--btn-cl);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.35;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #FF463A;
+}
+
+.hro {
+    display: flex;
+    gap: 397px;
+    align-items: center;
+}
+
+/* Популярні речі-секція */
+
+.popular {
+    padding: 60px 0;
+}
+
+.pplr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.popular-item {
+    display: flex;
+    gap: 117px;
+    background-color: var(--card-bg-color);
+    border-radius: 10px;
+    padding: 53px 140px 40px 70px;
+    display: flex;
+    align-items: center;
+}
+
+.item-title {
+    color: var(--title-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.36;
+    margin-bottom: 10px;
+}
+
+.item-amount {
+    color: var(--text-color);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15;
+    margin-bottom: 45px;
+}
+
+.item-button {
+    color: var(--text-color);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.item-img {
+    width: 240px;
+    height: 420px;
+}
+
+/* секція найкращого продукту */
+
+.tbest {
+    background-color: var(--main-bg);
+    padding: 60px 0 100px 0;
+}
+
+.best {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tbeast-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tbeast-title {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.tbeast-text {
+    color: var(--text-color);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15;
+    width: 790px;
+    margin: 40px 0 68px 0;
+}
+
+/* футер секція 1 */
+
+.contacts-cards {
+    padding: 100px 0;
+}
+
+.address-list {
+    display: flex;
+    gap: 20px;
+}
+
+.address-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 527px;
+    height: 348px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.25);
+}
+
+.address-item:hover {
+    background-color: var(--title-color);
+}
+
+.address-item a:hover {
+    color: var(--btn-cl);
+}
+
+.address-item h3:hover {
+    color: var(--btn-cl);
+}
+
+.address-img {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.address-link {
+    color: var(--text-color);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.16;
+    width: 458px;
+}
+
+.address-title {
+    color: var(--title-color);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.37;
+    margin: 40px 0 25px 0;
+}
+
+/* футер секція 2 */
+.logo-footer {
+    background-color: var(--footer-bg);
+    padding: 60px 0;
+}
+
+.log {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    color: var(--btn-cl) ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+}
