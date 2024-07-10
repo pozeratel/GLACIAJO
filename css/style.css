@@ -231,14 +231,12 @@ body {
 
 .address-item:hover {
     background-color: var(--title-color);
-}
-
-.address-item a:hover {
-    color: var(--btn-cl);
-}
-
-.address-item h3:hover {
-    color: var(--btn-cl);
+    .address-title{
+        color: var(--btn-cl);
+    }
+    .address-link{
+        color: var(--btn-cl);
+    }
 }
 
 .address-img {
@@ -280,7 +278,7 @@ body {
 }
 
 .footer-text {
-    color: var(--btn-cl) ;
+    color: var(--btn-cl);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
